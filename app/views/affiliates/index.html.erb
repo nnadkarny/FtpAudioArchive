@@ -1,2 +1,7 @@
 <h1>FTP Audio Archive</h1>
-<a href="http://tt-backup/ftp-archive/CCR_LOU/2019-02-13/">Test Link</a>
+<br />
+<% @affiliates.each do |affiliate| %>
+  <div>
+    <h1><%= affiliate.name %></h1>
+  </div>
+<% end %>
